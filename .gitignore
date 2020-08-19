@@ -1,0 +1,32 @@
+### https://raw.github.com/github/gitignore/68ae2ff9f7ce0176696966539b9807525002893b/Go.gitignore
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Ignore vendor directory
+vendor/
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+*.html
+
+# environment variables file
+*.env
+
+# IDE
+*.idea
+.idea/
+
+# Ignore dist and bin directory
+bin/
+dist/
+
+.bundle
+vendor
